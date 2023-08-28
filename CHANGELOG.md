@@ -2,6 +2,10 @@
 
 # UNRELEASED
 
+### fix: Include remote canisters in canisters_to_generate
+
+Generate frontend declarations for remote canisters too because frontend JS code may want to call them.
+
 ## DFX
 
 ### fix: Ctrl-C right after dfx start will hang for minutes and panics
